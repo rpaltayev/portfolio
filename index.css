@@ -1,0 +1,160 @@
+canvas {
+    position: absolute;
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FCFFF5;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.custom-fonts {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 3.5rem;
+}
+
+h2 {
+    text-transform: none;
+    font-weight: lighter;
+}
+
+.title, .name, .buttons {
+           text-align: center;
+-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+.fa-linkedin, .fa-facebook {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.fab {
+    font-size: 35px;
+    color: black;
+    padding: 0.8em 1em;
+}
+
+.fab :visited {
+    color: black;
+}
+
+.fab:hover {
+    transform: scale(1.3);
+    transition: transform 0.5s;
+    color: #c9510c;
+}
+
+
+.fa-github:hover{
+    color: #c9510c;
+}
+
+.fa-facebook:hover{
+    color: #3C5A99;
+}
+
+.fa-linkedin:hover{
+    color: #0077B5;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    width: 30%;
+    padding: 0;
+    margin:auto;
+}
+
+hr {
+    width: 20rem;
+}
+
+.buttons-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    width: 30%;
+    padding: 0;
+    margin:auto;
+}
+
+.portf-btn {
+    display: block;
+    border: 1px solid;
+    border-radius: 0.25em;
+    font-size: 20px;
+    transition: ease 0.5s;
+    padding: 0.6em;
+    margin: 0 1em;
+}
+
+.resume-li {
+    padding: 1.3em 0;
+}
+
+.portf {
+    color: #004B8D;
+}
+
+.resume {
+    color: #a4160f;
+}
+
+
+.portf:hover {
+    color: #fff;
+    border: 1px solid #004B8D;
+    background-color: #004B8D;
+}
+
+.resume:hover {
+    color: #fff;
+    border: 1px solid #a4160f;
+    background-color: #a4160f;
+}
+
+.buttons-ul li {
+    display: inline;
+}
+
+/*#link :hover {
+    color: #0077B5;
+    border: 1px solid #0077B5;
+}
+
+#face :hover {
+    color: #3b5998;
+    border: 1px solid #3b5998;
+}
+
+#git :hover {
+    color: #FF530D;
+    border: 1px solid #FF530D;
+
+}*/
+
+
+
+
+
+
