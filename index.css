@@ -6,7 +6,7 @@ canvas {
 body {
     margin: 0;
     padding: 0;
-    background-color: #FCFFF5;
+    background-color: #EBF2F1;
 }
 
 ul {
@@ -113,45 +113,29 @@ hr {
 }
 
 .portf {
-    color: #004B8D;
+    color: #1B3664;
 }
 
 .resume {
-    color: #a4160f;
+    color: #D13239;
 }
 
 
 .portf:hover {
     color: #fff;
-    border: 1px solid #004B8D;
-    background-color: #004B8D;
+    border: 1px solid #1B3664;
+    background-color: #1B3664;
 }
 
 .resume:hover {
     color: #fff;
-    border: 1px solid #a4160f;
-    background-color: #a4160f;
+    border: 1px solid #D13239;
+    background-color: #D13239;
 }
 
 .buttons-ul li {
     display: inline;
 }
-
-/*#link :hover {
-    color: #0077B5;
-    border: 1px solid #0077B5;
-}
-
-#face :hover {
-    color: #3b5998;
-    border: 1px solid #3b5998;
-}
-
-#git :hover {
-    color: #FF530D;
-    border: 1px solid #FF530D;
-
-}*/
 
 
 
