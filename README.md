@@ -1,3 +1,3 @@
 ## Welcome to Portfolio github repo.
 
-#### You can check out it [here](https://rpaltayev.github.io/portfolio/)
+#### Check it out [here](https://rpaltayev.github.io/portfolio/)
