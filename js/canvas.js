@@ -70,8 +70,6 @@ window.addEventListener("mousemove", function(event) {
         && event.target.classList[0] !== "resume-li"
         && event.target.classList[0] !== "portf-btn") {
         init(event.x, event.y, 40);
-        init(event.x + random(5, 10), event.y+random(5, 10), 40);
-        // init(event.x + random(5, 15), event.y+random(5, 15), 35);
     }
 });
 
@@ -98,7 +96,7 @@ const COLORS = [
 function init(x, y, maxRadius) {
     let circle, theta, force;
 
-    circle = new Circle(x, y, random(10, maxRadius));
+    circle = new Circle(x, y, random(12, maxRadius));
     circle.wander = random(0.5, 2.0);
     circle.drag = random(0.9, 0.99);
     theta = random(2 * Math.PI);

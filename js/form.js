@@ -26,7 +26,7 @@ $(function() {
 			$(formMessages).addClass('success');
 
 			// Set the message text.
-			$(formMessages).text(response);
+			$(formMessages).text("Thank you for your message, I will reply at my earliest convenience!");
 
 			// Clear the form.
 			$('#name').val('');
