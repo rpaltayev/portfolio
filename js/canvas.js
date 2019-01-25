@@ -70,6 +70,7 @@ window.addEventListener("mousemove", function(event) {
         && event.target.classList[0] !== "resume-li"
         && event.target.classList[0] !== "portf-btn") {
         init(event.x, event.y, 40);
+        init(event.x, event.y, 40);
     }
 });
 
